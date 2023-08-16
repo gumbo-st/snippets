@@ -25,12 +25,16 @@ cliargs = argparse_utils.ArgparseUtils(gbls)
 if gbls.prog_exit == True:
     sys.exit(-1)
 
+
 if __name__ == "__main__":
+    """
+    Typical python runtime main() function
+    """
     if (gbls.verbose == True):
         print("Verbose Mode Enabled")
     if (gbls.debug == True):
         print("Debug Mode Enabled")
-    if (gbls.debug == True):
+
         print("glbs.var1=" + str(gbls.var1))
         print("glbs.var2=" + str(gbls.var2))
         print("glbs.var3=" + str(gbls.var3))
