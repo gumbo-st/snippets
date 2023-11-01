@@ -1,0 +1,18 @@
+{
+    "firstName": "John",
+    "lastName": "Doh",
+    "age": 99,
+    "issues": ["no teeth", "bum knee", "chain smoker", "Tourette Syndrome"],
+    "children": [
+        {
+            "name": "Alice",
+            "age": 0.5,
+            "notes": "Tripped and fell in to a rabbit hole"
+        },
+        {
+            "name": "Betsy",
+            "age": 87,
+            "notes": "Named after John's favorite horse"
+        }
+    ]
+}
