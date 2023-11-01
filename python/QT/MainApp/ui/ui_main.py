@@ -22,6 +22,13 @@ class MainWindow(QMainWindow):
         self.ui.actionAbout.triggered.connect(self.showAboutWindow)
     
 
+    def closeEvent(self, event):
+        """ Overiding this method to catch the application
+            closing if the user doesn't use the exit menu item
+        """
+        # @TODO: make sure all files are closed properly
+        #        and the json file is written out if applicable
+        print("caught window close event")
 
     def onActionExitClick(self):
         QCoreApplication.quit()
